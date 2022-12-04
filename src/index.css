@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  /* colors */
+  --blue: rgb(23, 23, 54);
+  --grey: rgb(199, 200, 209);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Elven-header';
+  src: url(../fonts/Elven-header.ttf);
+}
+
+@font-face {
+  font-family: 'Elven-common-speak';
+  src: url(../fonts/Elven-common-speak.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Elven-header', 'serif';
+}
+
+a,
+p {
+  font-family: 'Elven-common-speak', 'serif';
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }
