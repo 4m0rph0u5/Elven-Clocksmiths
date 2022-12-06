@@ -2,32 +2,56 @@
   background-image: url(../../../images/backgrounds-textures-etc/rocky-mountain-high-res-2-rescaled.png);
   background-blend-mode: luminosity;
   background-color: rgb(57, 57, 73);
-  width: 100%;
   height: 550px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo_symbol {
+  /* border: 1px solid red; */
+  height: 203px;
+  width: 203px;
+  background-image: url('../../../images/logo-cropped-scaled.png');
+}
+
+.sublogo_paragraph {
+  color: white;
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.4rem;
+  padding: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: var(--blue);
+  background-color: rgb(23, 23, 58, 0.7);
+  backdrop-filter: blur(2px);
+  margin-top: 15px;
 }
 
 .intro_paragraph {
-  background-color: var(--grey);
-  height: 180px;
+  background-color: rgb(39, 39, 59);
   background-image: url(../../../images/backgrounds-textures-etc/intro-p-bg-2.png);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: luminosity;
-  padding-top: 15px;
+  background-blend-mode: multiply;
+  padding: 30px;
 }
 
 .intro_paragraph p {
-  font-size: 2rem;
-  margin: 10px auto;
+  color: var(--blue);
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
   max-width: 60%;
-  padding: 0 22px;
-  line-height: 1.5;
+  line-height: 1.6;
   text-align: center;
-  background-color: rgba(179, 170, 170, 0.6);
-  backdrop-filter: blur(1px);
+  background-color: var(--grey);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  padding: 4px;
 }
