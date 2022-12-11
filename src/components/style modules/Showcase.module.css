@@ -1,0 +1,53 @@
+.showcase_container {
+  background-image: url(../../../images/backgrounds-textures-etc/showcase-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 630px;
+  background-blend-mode: luminosity;
+  background-color: rgb(11, 11, 34);
+  position: relative;
+}
+
+.watch_info_container {
+  height: 630px;
+  width: 360px;
+  background-color: var(--blue);
+  background-color: rgb(23, 23, 58, 0.7);
+  backdrop-filter: blur(2px);
+  position: absolute;
+  right: 170px;
+  transform: skew(-23deg);
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.watch_info_container p,
+.watch_info_container button a {
+  color: var(--blue);
+  background-color: rgba(238, 238, 238, 0.55);
+  font-family: 'Elven-header';
+  font-size: 1.23rem;
+  line-height: 1.4;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.watch_info_container button {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.showcase_catalog {
+  height: 430px;
+  width: 430px;
+  border-radius: 20px;
+  background-color: var(--blue);
+  position: absolute;
+  left: 230px;
+  top: 105px;
+  background-color: var(--blue);
+  background-color: rgb(23, 23, 58, 0.7);
+  backdrop-filter: blur(2px);
+}
