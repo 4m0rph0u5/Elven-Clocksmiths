@@ -1,7 +1,18 @@
 import React from 'react';
 
 const WatchCatalog = () => {
-  return <div>WatchCatalog</div>;
+  return (
+    <div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  );
 };
 
 export default WatchCatalog;

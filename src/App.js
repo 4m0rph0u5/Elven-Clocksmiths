@@ -10,9 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <WatchShowcase />
-      {/* <WatchCatalog />
-      <WatchShowcase />
-      <WatchCatalog /> */}
+      {/* <WatchCatalog /> */}
       {/* <Footer /> */}
     </>
   );

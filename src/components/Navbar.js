@@ -16,7 +16,6 @@ const Navbar = () => {
           <ul className={styles.navmenu}>
             <li className={styles.catalog}>
               <a href='#'>Catalog</a>
-              <div className={styles.dropdown_background}></div>
               <div className={styles.dropdown}>
                 <ul>
                   <li>

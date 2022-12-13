@@ -19,6 +19,11 @@
   margin: 0;
   box-sizing: border-box;
   color: white;
+  overflow-x: hidden;
+}
+
+body {
+  max-width: 100vw;
 }
 
 h1 {
