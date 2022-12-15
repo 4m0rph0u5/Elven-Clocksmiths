@@ -14,7 +14,6 @@
 }
 
 .logo_symbol {
-  /* border: 1px solid red; */
   height: 203px;
   width: 203px;
   background-image: url('../../../images/logo-cropped-scaled.png');
@@ -28,10 +27,11 @@
   padding-top: 8px;
   padding-bottom: 8px;
   background-color: var(--blue);
-  background-color: rgb(23, 23, 58, 0.7);
+  background-color: rgba(23, 23, 58, 0.7);
   backdrop-filter: blur(2px);
   margin-top: 15px;
   max-width: 80%;
+  text-align: center;
 }
 
 .intro_paragraph {

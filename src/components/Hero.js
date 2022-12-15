@@ -6,7 +6,7 @@ const Hero = () => {
     <>
       <section className={styles.hero}>
         <div className={styles.logo_symbol}></div>
-        <p className={styles.sublogo_paragraph}>Lorem ipsum dolor sit.</p>
+        <p className={styles.sublogo_paragraph}>Lorem ipsum dolor sit Lorem.</p>
       </section>
       <section className={styles.intro_paragraph}>
         <p>
