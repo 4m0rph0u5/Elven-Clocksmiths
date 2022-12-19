@@ -1,0 +1,25 @@
+.footer_container {
+  background-color: rgb(39, 39, 59);
+  background-image: url(../../../images/backgrounds-textures-etc/intro-p-bg-2.png);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 30px;
+  display: flex;
+  /* flex-grow: 1; */
+  height: 250px;
+}
+
+.footer_container p {
+  color: var(--blue);
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 60%;
+  line-height: 1.6;
+  text-align: center;
+  background-color: var(--grey);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  padding: 4px;
+}

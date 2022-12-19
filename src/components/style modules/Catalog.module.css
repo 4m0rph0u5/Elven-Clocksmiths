@@ -1,0 +1,128 @@
+.intro_paragraph {
+  background-color: rgb(39, 39, 59);
+  background-image: url(../../../images/backgrounds-textures-etc/intro-p-bg-2.png);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding: 30px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.intro_paragraph p {
+  color: var(--blue);
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  max-width: 60%;
+  line-height: 1.6;
+  text-align: center;
+  background-color: var(--grey);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  padding: 4px;
+}
+
+.showcase_container {
+  background-image: url(../../../images/backgrounds-textures-etc/bg-castle.png);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  background-color: rgb(28, 28, 49);
+}
+
+.showcase_intro_p {
+  display: block;
+  color: white;
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.4rem;
+  padding: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: var(--blue);
+  background-color: rgba(23, 23, 58, 0.7);
+  backdrop-filter: blur(2px);
+  max-width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  row-gap: 60px;
+  column-gap: 60px;
+}
+
+.div_item {
+  background-image: url('../../../images/backgrounds-textures-etc/intro-p-bg-2.png');
+  background-color: rgb(39, 39, 59);
+  background-blend-mode: multiply;
+  height: 480px;
+  width: 270px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.div_item img {
+  width: 260px;
+  height: 260px;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.div_item p {
+  color: var(--blue);
+  background-color: var(--grey);
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(2px);
+  margin: 12px;
+  padding: 3px;
+  text-align: left;
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.14rem;
+}
+
+.div_item a {
+  color: var(--blue);
+  position: absolute;
+  bottom: 20px;
+  background-color: var(--grey);
+  /* background-color: rgba(255, 255, 255, 0.9); */
+  opacity: 0.6;
+
+  /* background-color: rgba(23, 23, 58, 0.6); */
+  backdrop-filter: blur(2px);
+  border-radius: 4px;
+  font-family: 'Elven-header', sans-serif;
+  font-size: 1.35rem;
+  text-align: center;
+  padding: 9px;
+  padding-bottom: 14px;
+  padding-top: 5px;
+}
+
+/* .card {
+  height: 430px;
+  width: 430px;
+  border-radius: 20px;
+  background-color: var(--blue);
+  position: absolute;
+  left: 230px;
+  top: 105px;
+  background-color: var(--blue);
+  background-color: rgb(23, 23, 58, 0.7);
+  backdrop-filter: blur(2px);
+} */
+
+/* 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 */
