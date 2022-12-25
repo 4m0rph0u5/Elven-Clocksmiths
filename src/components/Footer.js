@@ -9,6 +9,10 @@ const Footer = () => {
         <li></li>
         <li></li>
       </ul>
+      <form action=''>
+        <input type='text' name='' id='' />
+        <input type='text' name='' id='' />
+      </form>
       <p>All rights reserved 2022</p>
       {/* copyright text in white */}
     </footer>

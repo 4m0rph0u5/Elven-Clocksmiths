@@ -57,6 +57,7 @@
   margin-bottom: 60px;
   row-gap: 60px;
   column-gap: 60px;
+  /* try minmax function */
 }
 
 .div_item {
@@ -98,10 +99,7 @@
   position: absolute;
   bottom: 20px;
   background-color: var(--grey);
-  /* background-color: rgba(255, 255, 255, 0.9); */
   opacity: 0.6;
-
-  /* background-color: rgba(23, 23, 58, 0.6); */
   backdrop-filter: blur(2px);
   border-radius: 4px;
   font-family: 'Elven-header', sans-serif;
@@ -124,5 +122,3 @@
   background-color: rgb(23, 23, 58, 0.7);
   backdrop-filter: blur(2px);
 } */
-
-/* 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 */

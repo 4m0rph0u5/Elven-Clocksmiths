@@ -48,11 +48,17 @@
   font-family: 'Elven-header', sans-serif;
   font-size: 1.2rem;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 85%;
   line-height: 1.6;
   text-align: center;
   background-color: var(--grey);
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(2px);
   padding: 4px;
+}
+
+@media screen and (min-width: 800px) {
+  .intro_paragraph p {
+    max-width: 60%;
+  }
 }

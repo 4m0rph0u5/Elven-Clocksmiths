@@ -6,8 +6,6 @@
   background-blend-mode: multiply;
   padding: 30px;
   display: flex;
-  /* flex-grow: 1; */
-  height: 250px;
 }
 
 .footer_container p {
