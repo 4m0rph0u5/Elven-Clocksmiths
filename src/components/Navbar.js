@@ -13,16 +13,16 @@ const Navbar = () => {
           </div>
 
           <ul className='navmenu'>
-            <li className='catalog'>
+            <li className='nav-item'>
               <a href='#'>Catalog</a>
             </li>
             <li>
-              <a href='#' className='about'>
+              <a href='#' className='nav-item'>
                 About
               </a>
             </li>
             <li>
-              <a href='#' className='contact'>
+              <a href='#' className='nav-item'>
                 Contact Us
               </a>
             </li>

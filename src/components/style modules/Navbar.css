@@ -25,6 +25,10 @@
   font-size: 1.26rem;
 }
 
+.navmenu a {
+  padding: 0 5px;
+}
+
 .logo {
   height: 45px;
   padding-top: 12px;
@@ -53,11 +57,30 @@
     padding-bottom: 0;
   }
 
-  /* .navmenu li:hover {
-    lets try the slide animation 
-  } */
+  .navmenu a:hover {
+    /* color: var(--blue);
+    background-color: white; */
+    animation: link-hover;
+    animation-duration: 2s;
+  }
 
   .logo {
     padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navmenu {
+    width: 310px;
+  }
+}
+
+@keyframes link-hover {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+    background-color: white;
   }
 }
