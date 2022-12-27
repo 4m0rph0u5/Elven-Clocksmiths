@@ -28,13 +28,13 @@
 /* Grid Settings */
 .grid_container {
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(1, 270px);
   justify-content: center;
   align-items: center;
-  /* width: 80%; */
   margin-top: 100px;
   margin-bottom: 45px;
   column-gap: 60px;
+  row-gap: 40px;
 }
 
 .div_item {
@@ -76,10 +76,7 @@
   position: absolute;
   bottom: 20px;
   background-color: var(--grey);
-  /* background-color: rgba(255, 255, 255, 0.9); */
   opacity: 0.6;
-
-  /* background-color: rgba(23, 23, 58, 0.6); */
   backdrop-filter: blur(2px);
   border-radius: 4px;
   font-family: 'Elven-header', sans-serif;
@@ -103,4 +100,15 @@
   backdrop-filter: blur(2px);
 } */
 
-/* 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 */
+@media screen and (min-width: 650px) {
+  .grid_container {
+    grid-template-columns: repeat(2, 270px);
+    row-gap: 40px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .grid_container {
+    grid-template-columns: repeat(4, 270px);
+  }
+}

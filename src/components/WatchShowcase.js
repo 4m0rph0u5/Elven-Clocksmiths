@@ -3,7 +3,7 @@ import styles from './style modules/Showcase.module.css';
 import img1 from '../catalog/pocket/pocket-watch-model-1.png';
 import img2 from '../catalog/pocket/pocket-watch-model-2.png';
 import img3 from '../catalog/pocket/pocket-watch-model-3.png';
-import img4 from '../catalog/pocket/pocket-watch-model-4.png';
+import img4 from '../catalog/pocket/pocket-watch-model-6.png';
 
 const WatchShowcase = () => {
   return (

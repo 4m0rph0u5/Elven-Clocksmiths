@@ -16,15 +16,11 @@ const Navbar = () => {
             <li className='nav-item'>
               <a href='#'>Catalog</a>
             </li>
-            <li>
-              <a href='#' className='nav-item'>
-                About
-              </a>
+            <li className='nav-item'>
+              <a href='#'>About</a>
             </li>
-            <li>
-              <a href='#' className='nav-item'>
-                Contact Us
-              </a>
+            <li className='nav-item'>
+              <a href='#'>Contact Us</a>
             </li>
           </ul>
         </nav>
