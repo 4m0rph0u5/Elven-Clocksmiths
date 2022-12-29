@@ -47,6 +47,8 @@ const WatchShowcase = () => {
             </p>
             <a href='#'>Acquire Now</a>
           </div>
+          {/* <Card img={img4} text={Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              explicabo neque nemo aliquid ex unde!} /> */}
         </div>
       </div>
     </>
