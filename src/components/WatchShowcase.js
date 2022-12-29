@@ -4,6 +4,7 @@ import img1 from '../catalog/pocket/pocket-watch-model-1.png';
 import img2 from '../catalog/pocket/pocket-watch-model-2.png';
 import img3 from '../catalog/pocket/pocket-watch-model-3.png';
 import img4 from '../catalog/pocket/pocket-watch-model-6.png';
+import Card from './Card';
 
 const WatchShowcase = () => {
   return (
@@ -14,41 +15,26 @@ const WatchShowcase = () => {
         </p>
 
         <div className={styles.grid_container}>
-          <div className={styles.div_item}>
-            <img src={img1} alt='' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate fugiat ut inventore consequatur voluptatibus.
-            </p>
-            <a href='#'>Acquire Now</a>
-          </div>
-          <div className={styles.div_item}>
-            <img src={img2} alt='' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos,
-              maxime consectetur fuga obcaecati laborum a.
-            </p>
-
-            <a href='#'>Acquire Now</a>
-          </div>
-          <div className={styles.div_item}>
-            <img src={img3} alt='' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              doloribus reiciendis vitae at est sint.
-            </p>
-            <a href='#'>Acquire Now</a>
-          </div>
-          <div className={styles.div_item}>
-            <img src={img4} alt='' />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              explicabo neque nemo aliquid ex unde!
-            </p>
-            <a href='#'>Acquire Now</a>
-          </div>
-          {/* <Card img={img4} text={Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              explicabo neque nemo aliquid ex unde!} /> */}
+          <Card
+            img={img1}
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate fugiat ut inventore consequatur voluptatibus.'
+          />
+          <Card
+            img={img2}
+            text='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos,
+              maxime consectetur fuga obcaecati laborum a.'
+          />
+          <Card
+            img={img3}
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              doloribus reiciendis vitae at est sint.'
+          />
+          <Card
+            img={img4}
+            text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              explicabo neque nemo aliquid ex unde!'
+          />
         </div>
       </div>
     </>

@@ -18,11 +18,9 @@
   background-color: var(--blue);
   background-color: rgba(23, 23, 58, 0.7);
   backdrop-filter: blur(2px);
-  max-width: 50%;
+  max-width: 80%;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin: 60px auto 20px auto;
 }
 
 /* Grid Settings */
@@ -102,20 +100,11 @@
   opacity: 0.9;
 }
 
-/* .card {
-  height: 430px;
-  width: 430px;
-  border-radius: 20px;
-  background-color: var(--blue);
-  position: absolute;
-  left: 230px;
-  top: 105px;
-  background-color: var(--blue);
-  background-color: rgb(23, 23, 58, 0.7);
-  backdrop-filter: blur(2px);
-} */
-
 @media screen and (min-width: 650px) {
+  .showcase_intro_p {
+    max-width: 60%;
+  }
+
   .grid_container {
     grid-template-columns: repeat(2, 270px);
     row-gap: 40px;
@@ -125,5 +114,11 @@
 @media screen and (min-width: 1300px) {
   .grid_container {
     grid-template-columns: repeat(4, 270px);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .showcase_intro_p {
+    max-width: 910px;
   }
 }
